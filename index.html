@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container input {
+            border-radius: 10px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #e3e2e1;
+            font-weight: 700;
+        }
+
+        .Input_Number {
+            display: flex;
+            margin-top: 85px;
+            gap: 20px;
+            margin-left: 490px;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        button {
+            margin-top: 40px;
+            border-radius: 10px;
+            background-color: #5d9bed;
+            padding: 12px 30px;
+            border: none;
+            font-weight: 700;
+            margin-left: 460px;
+        }
+
+        input {
+            text-align: center;
+        }
+        .container h2{
+            margin-right: 110px;
+        }
+        .divBT1 {
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 45%;
+            text-align: center;
+            padding: 10px;
+            margin-left: 355px;
+            margin-top: 30px;
+        }
+        .divBT2{
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 45%;
+            text-align: center;
+            padding: 10px;
+            margin-left: 355px;
+            margin-top: 30px;
+        }
+        .divBT3{
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 45%;
+            text-align: center;
+            padding: 10px;
+            margin-left: 355px;
+            margin-top: 30px;
+        }
+        .divBT4{
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 45%;
+            text-align: center;
+            padding: 10px;
+            margin-left: 355px;
+            margin-top: 30px;
+        }
+        .divBT5{
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 45%;
+            text-align: center;
+            padding: 10px;
+            margin-left: 355px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div  class="container">
+        <h2>Tính tiền lương nhân viên</h2>
+        <div class="Input_Number">
+            <input id="salaryOfday" type="text" placeholder="Nhập lương 1 ngày" />
+            <input id="Working_Day" type="text" placeholder="Nhập số ngày làm" />
+      
+        </div>
+        <button id="TinhLuong" type="button">Tính lương</button>
+        <div id="divBT1"></div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h2>Tính giá trị trung bình</h2>
+        <div style="margin-left: 140px;" class="Input_Number">
+            <input id="Num1" type="text" placeholder="Nhập số thứ 1" />
+            <input id="Num2" type="text" placeholder="Nhập số thứ 2" />
+            <input id="Num3" type="text" placeholder="Nhập số thứ 3" />
+            <input id="Num4" type="text" placeholder="Nhập số thứ 4" />
+            <input id="Num5" type="text" placeholder="Nhập số thứ 5" />
+      
+        </div>
+        <button id="AVGNum" type="button">Tính trung bình</button>
+        <div id="divBT2"></div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h2>Quy đổi tiền</h2>
+        <div style="margin-left: 585px;" class="Input_Number">
+            <input id="Num_USD" type="text" placeholder="Nhập số tiền USD" />
+       
+      
+        </div>
+        <button id="QuyDoiTien" type="button">Quy đổi tiền</button>
+        <div id="divBT3"></div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h2>Tính diện tích, chu vi hình chữ nhật</h2>
+        <div class="Input_Number">
+            <input id="height_" type="text" placeholder="Nhập chiều dài" />
+            <input id="width_" type="text" placeholder="Nhập chiều rộng" />
+      
+        </div>
+        <button id="Tinh_HCN" type="button">Tính</button>
+        <div id="divBT4"></div>
+    </div>
+
+    <hr>
+    <div style="padding-bottom: 100px;" class="container">
+        <h2>Tính tổng 2 ký số</h2>
+        <div style="margin-left: 585px;" class="Input_Number">
+            <input id="kySo" type="text" placeholder="Nhập số có 2 chữ số" />
+       
+      
+        </div>
+        <button id="TinhKySo" type="button">Tính tổng 2 ký số</button>
+        <div id="divBT5"></div>
+    </div>
+    <script src="./Js/index.js"></script>
+</body>
+</html>
